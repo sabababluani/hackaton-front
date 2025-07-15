@@ -19,9 +19,9 @@ export const DishCard = ({ dish }: DishCardProps) => {
       )
       .then((res) => setRestaurant(res.data.name));
   }, []);
+  
   return (
     <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
-      {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
           src={dish.image_url}
