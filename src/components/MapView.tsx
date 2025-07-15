@@ -1,21 +1,11 @@
 
 import { MapPin, Star } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { DishInterface } from "@/interfaces/dishes.interface";
 
-interface Dish {
-  id: string;
-  restaurant_id: string;
-  name: string;
-  description: string;
-  price: number;
-  image_url: string;
-  ingredients: string[];
-  tags: string[];
-  allergens: string[];
-}
 
 interface MapViewProps {
-  dishes: Dish[];
+  dishes: DishInterface[];
 }
 
 export const MapView = ({ dishes }: MapViewProps) => {
@@ -67,7 +57,7 @@ export const MapView = ({ dishes }: MapViewProps) => {
                 <h4 className="font-medium text-gray-800">{dish.name}</h4>
                 <div className="flex items-center gap-2 mt-1">
                   <Badge variant="secondary" className="text-xs">
-                    Restaurant #{dish.restaurant_id.replace('rest_', '')}
+                    Restaurant #{dish.restaurantId.replace('rest_', '')}
                   </Badge>
                   <div className="flex items-center gap-1">
                     <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
