@@ -19,7 +19,7 @@ export const DishCard = ({ dish }: DishCardProps) => {
       )
       .then((res) => setRestaurant(res.data.name));
   }, []);
-  
+
   return (
     <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
       <div className="relative h-48 overflow-hidden">
@@ -33,7 +33,6 @@ export const DishCard = ({ dish }: DishCardProps) => {
         </div>
       </div>
 
-      {/* Content */}
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-2 line-clamp-1">
           {dish.name}
@@ -43,7 +42,6 @@ export const DishCard = ({ dish }: DishCardProps) => {
           {dish.description}
         </p>
 
-        {/* Ingredients */}
         <div className="mb-4">
           <h4 className="text-sm font-semibold text-gray-700 mb-2">
             Ingredients:
@@ -62,7 +60,6 @@ export const DishCard = ({ dish }: DishCardProps) => {
           </div>
         </div>
 
-        {/* Allergens */}
         {dish.allergens.length > 0 && (
           <div className="mb-4">
             <div className="flex items-center gap-1 mb-2">
@@ -81,7 +78,6 @@ export const DishCard = ({ dish }: DishCardProps) => {
           </div>
         )}
 
-        {/* Restaurant info and actions */}
         <div className="flex items-center justify-between pt-4 border-t border-gray-100">
           <div className="flex items-center gap-1 text-sm text-gray-500">
             <MapPin className="w-4 h-4" />
