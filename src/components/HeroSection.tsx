@@ -167,10 +167,6 @@ export const HeroSection = () => {
               <Utensils className="w-5 h-5 sparkle-animation" />
               <span>კერძზე დაფუძნებული ძიება</span>
             </div>
-            <div className="feature-card flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 stagger-2">
-              <MapPin className="w-5 h-5 pulse-animation" />
-              <span>ლოკაცია</span>
-            </div>
             <div className="feature-card flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 stagger-3">
               <Sparkles className="w-5 h-5 sparkle-animation" />
               <span>AI-ით უზრუნველყოფილი</span>

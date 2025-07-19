@@ -1,26 +1,24 @@
-// Restaurant Interface
 export interface RestaurantInterface {
-    id: number;
-    name: string;
-    address: string;
-    latitude: string;
-    longitude: string;
-    workingHours: string;
-    phone: string;
-    priceRange: number;
-    atmosphere: string[];
+  id: number;
+  name: string;
+  address: string;
+  latitude: string;
+  longitude: string;
+  workingHours: string;
+  phone: string;
+  priceRange: number;
+  atmosphere: string[];
+  dishes: DishInterface[];
 }
 
-// Dish Interface (with restaurant relation)
 export interface DishInterface {
-    id: number;
-    restaurantId: string;
-    restaurant?: RestaurantInterface; // Optional relation
-    name: string;
-    description: string;
-    price: number;
-    image_url: string;
-    ingredients: string[];
-    tags: string[];
-    allergens: string[];
+  id: number;
+  restaurantId: string;
+  name: string;
+  description: string;
+  price: number;
+  imageUrl: string;
+  ingredients: string[];
+  tags: string[];
+  allergens: string[];
 }
