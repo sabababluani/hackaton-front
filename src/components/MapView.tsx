@@ -49,7 +49,7 @@ export const MapView = ({ dishes }: MapViewProps) => {
           {dishes.slice(0, 3).map((dish, index) => (
             <div key={dish.id} className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
               <img
-                src={dish.image_url}
+                src={dish.imageUrl}
                 alt={dish.name}
                 className="w-12 h-12 rounded-lg object-cover"
               />

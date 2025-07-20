@@ -9,8 +9,6 @@ interface DishCardProps {
 }
 
 export const DishCard = ({ dish, restaurant, priceRange }: DishCardProps) => {
-  console.log(priceRange);
-
   return (
     <div className="max-w-[430px] w-full bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
       <div className="relative h-48 overflow-hidden">

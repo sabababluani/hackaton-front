@@ -174,7 +174,7 @@ export const HeroSection = () => {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 fade-in-up stagger-4 pulse-animation">
-            "რამე გემრიელი გინდათ? ს.უ.პ.რ.ა. მოგიძებნით."
+            "რამე გემრიელი გინდათ? ს.უ.ფ.რ.ა. მოგიძებნით."
           </h2>
         </div>
       </div>
