@@ -261,7 +261,7 @@ const ConversationBubble = ({ message, isUser, timestamp }) => (
 
 ---
 
-## 🔌 **API Integration**
+## **API Integration**
 
 ### **Custom API Hooks**
 ```typescript
@@ -313,7 +313,7 @@ const SearchResults = ({ query }) => {
 
 ---
 
-## 📊 **User Experience Flows**
+## **User Experience Flows**
 
 ### **Document Upload Flow**
 1. **Landing**: User sees upload zone with Georgian instructions
