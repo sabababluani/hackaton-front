@@ -1,4 +1,4 @@
-# 🌟 Georgian Language Intelligence Platform - Frontend
+# Georgian Language Intelligence Platform - Frontend
 
 **Hackathon Project: Search & AI Track** | **July 2025**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 **The User Experience Challenge**
+## **The User Experience Challenge**
 
 Georgian users struggle with complex, non-intuitive interfaces when trying to search and manage Georgian content. Most platforms don't understand Georgian cultural context, provide poor Georgian language support, and fail to deliver conversational, natural interactions.
 
